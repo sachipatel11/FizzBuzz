@@ -3,13 +3,10 @@ import  java.io.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-
 // Your solution to MIE250 Project 1 goes here
 // This is the "default pasckage" hence there should be *no* line that starts with "package ...;"
 
 public class FizzBuzz{
-
     /**
      *
      * @param args
@@ -44,7 +41,6 @@ public class FizzBuzz{
                     System.out.println("\nThe end.");
                  }
                     while (fizz!=0 && buzz!=0){
-
                     System.out.print("Enter starting number: ");
                     start = Integer.parseInt(cin.readLine());
                     System.out.print("Enter ending number: ");
@@ -56,7 +52,6 @@ public class FizzBuzz{
                 }
      
                 for (i=start; i<=end;i++){
-            
                 if (i%fizz==0 && i%buzz==0){
                 System.out.println(i + "." + " FizzBuzz");
                 }
@@ -69,9 +64,7 @@ public class FizzBuzz{
                 else{
                 System.out.println(i + ". " + i);
                 }
-                }  
-           
-
+                }   
         System.out.println(" JAVA FIZZBUZZ PROGRAM ");
         System.out.print("Enter Fizz number: ");
         fizz = Integer.parseInt(cin.readLine());
@@ -91,7 +84,6 @@ public class FizzBuzz{
         }
             if (buzz==0){
                 System.out.println("\nThe end.");
-                
             }
         }
         }
